@@ -1,6 +1,6 @@
 # Terraform state (obsahuje citlivé údaje)
 *.tfstate
-*.tfstate.backup
+*.tfstate.*
 
 # Terraform proměnné (tokeny, hesla)
 *.tfvars
