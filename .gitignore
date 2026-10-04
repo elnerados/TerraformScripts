@@ -1,0 +1,12 @@
+# Terraform state (obsahuje citlivé údaje)
+*.tfstate
+*.tfstate.backup
+
+# Terraform proměnné (tokeny, hesla)
+*.tfvars
+
+# Provider pluginy (stáhnou se přes terraform init)
+.terraform/
+
+# Systémové soubory
+.DS_Store
