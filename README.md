@@ -21,7 +21,3 @@ terraform init && terraform plan && terraform apply
 
 Detaily (nastavení tokenu, SSH agent, cloud image) jsou v [`NewVMProxmox/README.md`](NewVMProxmox/README.md).
 Tajné hodnoty (`terraform.tfvars`) a `*.tfstate` jsou v `.gitignore` a nesmí se verzovat.
-
-## Čemu jsem se naučil
-
-Rozdělení provider/resource/secrets, práce s API tokenem a oprávněními na Proxmoxu, cloud-init, bezpečná práce se state souborem.
